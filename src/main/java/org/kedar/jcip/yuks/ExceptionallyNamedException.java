@@ -8,7 +8,7 @@ import static java.util.Arrays.asList;
 /**
  * <p> What does this program print?</p>
  */
-public class ExceptionallyNamedException {
+public final class ExceptionallyNamedException {
     public static void main(String[] args) {
         List<String> stooges = new ArrayList<>(asList("Larry", "Moe", "Jo", "Curly"));
         for (String stooge : stooges) {

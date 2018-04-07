@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
  * <p> Quiz based on JCiP listing 8.1</p>
  * <p> What does this program do?</p>
  */
-public class IntimateEmbrace {
+public final class IntimateEmbrace {
     private static final Random rand = new Random();
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
